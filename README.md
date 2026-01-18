@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NexusRPC - Web3 Infrastructure Landing Page
 
-## Getting Started
+![Project Preview](/uploaded_image_1768718349622.png)
+*(Concept based on GetBlock design language)*
 
-First, run the development server:
+## 🚀 About This Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project is a high-performance, responsive landing page built as a portfolio piece for the **Junior Frontend Developer (Marketing Team)** role at **GetBlock**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+It demonstrates my ability to:
+- **Build modern, visually stunning UIs** that align with Web3 aesthetics (Cyberpunk, Dark Mode, Glassmorphism).
+- **Implement complex layouts** and interactive elements (Pricing Toggles, Animated Grids) using **Next.js** and **Tailwind CSS**.
+- **Optimize for conversion** with clear CTAs and engaging animations using **Framer Motion**.
+- **Move fast** by utilizing AI-assisted workflows to prototype and refine production-ready code.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: [Next.js 14+ (App Router)](https://nextjs.org/) - For SEO, performance, and server-side rendering.
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) - For rapid, maintaining styling and custom design systems.
+- **Animations**: [Framer Motion](https://www.framer.com/motion/) - For complex 3D transforms and scroll reveal effects.
+- **Icons**: [Lucide React](https://lucide.dev/) - For consistent, lightweight iconography.
+- **Language**: TypeScript - For type safety and code reliability.
 
-## Learn More
+## ✨ Key Features
 
-To learn more about Next.js, take a look at the following resources:
+1.  **Cyberpunk Design System**: Custom Tailwind configuration for neon gradients, glassmorphism effects, and glowing text.
+2.  **3D Animated Hero**: Engaging entrance animations to capture user attention immediately.
+3.  **Interactive Pricing Table**: JavaScript-driven toggle for Monthly/Annual billing with automatic discount calculations.
+4.  **Split-Screen Login Page**: A dedicated `/login` route featuring a cinematic dashboard preview and social auth layout.
+5.  **Responsive Layouts**: Fully adaptive design that works seamlessly on Mobile, Tablet, and Desktop.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🏁 Getting Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/web3-landing-page.git
+    cd web3-landing-page
+    ```
 
-## Deploy on Vercel
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3.  **Run the development server**:
+    ```bash
+    npm run dev
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4.  **Open locally**:
+    Visit [http://localhost:3000](http://localhost:3000) to see the application.
+
+## 🎨 Design Decisions
+
+- **Why Next.js?**
+    For a marketing site, SEO and Load Speed are critical. Next.js provides Server Components by default, ensuring the landing page loads instantly even on slower connections.
+- **Why Tailwind CSS?**
+    It allows for rapid iteration on the "Cyberpunk" theme. Using utility classes like `bg-white/5` (glass effect) and custom `text-glow` utilities made it easy to match the GetBlock aesthetic.
+- **Why Framer Motion?**
+    To give the site a "premium" feel. Subtle entrance animations on scroll (like the Protocol Grid) make the page feel alive without overwhelming the user.
+
+## 📄 License
+This project is for educational/portfolio purposes.
