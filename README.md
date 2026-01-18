@@ -1,6 +1,6 @@
 # NexusRPC - Web3 Infrastructure Landing Page
 
-![Project Preview](/NexusRPC.png)
+![Project Preview](public/NexusRPC.png)
 *(Concept based on GetBlock design language)*
 
 ## 🚀 About This Project
