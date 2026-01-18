@@ -3,6 +3,8 @@
 ![Project Preview](public/NexusRPC.png)
 *(Concept based on GetBlock design language)*
 
+> **Live Demo:** [https://nexus-rpc.vercel.app/](https://nexus-rpc.vercel.app/)
+
 ## 🚀 About This Project
 
 This project is a high-performance, responsive landing page built as a portfolio piece for the **Junior Frontend Developer (Marketing Team)** role at **GetBlock**.
@@ -33,8 +35,9 @@ It demonstrates my ability to:
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/web3-landing-page.git
-    cd web3-landing-page
+    ```bash
+    git clone https://github.com/LazyBoneJC/NexusRPC.git
+    cd NexusRPC
     ```
 
 2.  **Install dependencies**:
