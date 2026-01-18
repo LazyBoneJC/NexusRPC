@@ -64,7 +64,7 @@ export function Hero() {
           <motion.div 
              animate={{ y: [-20, 20, -20], rotateY: [0, 10, 0] }}
              transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-gradient-to-br from-primary/80 to-accent/80 rounded-3xl shadow-[0_0_50px_rgba(139,92,246,0.4)] backdrop-blur-xl border border-white/20 flex items-center justify-center z-20"
+             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-gradient-to-br from-primary/80 to-accent/80 rounded-3xl shadow-[0_0_50px_rgba(139,92,246,0.4)] backdrop-blur-xl border border-white/20 flex items-center justify-center z-20 will-change-transform"
           >
             <Box className="w-32 h-32 text-white/90" strokeWidth={1} />
           </motion.div>
