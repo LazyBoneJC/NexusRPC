@@ -7,7 +7,9 @@
 
 ## 🚀 About This Project
 
-This project is a high-performance, responsive landing page built as a portfolio piece for the **Junior Frontend Developer (Marketing Team)** role at **GetBlock**.
+This project is a high-performance, responsive landing page built as a **portfolio piece** to demonstrate my skills as a **Junior Frontend Developer**. 
+
+It is designed as a concept for a **Web3 RPC Node Provider**, showcasing my ability to translate complex technical products into visually engaging, conversion-focused user interfaces.
 
 It demonstrates my ability to:
 - **Build modern, visually stunning UIs** that align with Web3 aesthetics (Cyberpunk, Dark Mode, Glassmorphism).
